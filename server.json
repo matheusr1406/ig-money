@@ -1,60 +1,28 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "description": "Desenvolvimento de site",
+      "description": "Dinheiro Bradesco",
+      "price": 1475,
+      "category": "Trabalho",
       "type": "income",
-      "category": "Venda",
-      "price": 14000,
-      "createdAt": "2022-07-29T19:36:44.505Z"
+      "createdAt": "2023-11-14T14:07:54.056Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "description": "Jantar",
+      "description": "Fatura Novembro",
+      "price": 812,
+      "category": "Credito",
       "type": "outcome",
-      "category": "Alimentação",
-      "price": 196,
-      "createdAt": "2022-07-29T19:30:44.505Z"
+      "createdAt": "2023-11-14T14:08:40.920Z",
+      "id": 2
     },
     {
-      "id": 4,
-      "description": "Desenvolvimento Mobile",
+      "description": "Dinheir em Nota",
+      "price": 104,
+      "category": "Dinheiro vivo",
       "type": "income",
-      "category": "Venda",
-      "price": 9000,
-      "createdAt": "2022-07-29T19:31:44.505Z"
-    },
-    {
-      "description": "almoço",
-      "price": 130,
-      "category": "alimentação",
-      "type": "outcome",
-      "createdAt": "2023-05-17T18:14:35.052Z",
-      "id": 6
-    },
-    {
-      "description": "Desenvolvimento de sites",
-      "price": 14000,
-      "category": "Venda",
-      "type": "income",
-      "createdAt": "2023-05-17T18:24:32.498Z",
-      "id": 7
-    },
-    {
-      "description": "Almoço",
-      "price": 120,
-      "category": "Alimentação",
-      "type": "outcome",
-      "createdAt": "2023-05-17T18:25:11.922Z",
-      "id": 8
-    },
-    {
-      "description": "Mercado",
-      "price": 863,
-      "category": "Casa",
-      "type": "outcome",
-      "createdAt": "2023-05-17T18:25:40.900Z",
-      "id": 9
+      "createdAt": "2023-11-14T14:09:01.050Z",
+      "id": 3
     }
   ]
 }

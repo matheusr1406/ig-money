@@ -15,8 +15,6 @@ type SearchFormInputs = z.infer<typeof searchFormSchema>;
 
 export function SearchForm (){
     const {loadTransactions} = useContext(TransactionsContext)
-
-
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const {register, handleSubmit} = useForm<SearchFormInputs>({
         resolver: zodResolver(searchFormSchema)
@@ -25,8 +23,6 @@ export function SearchForm (){
    async function handleSearchTransactions (data: SearchFormInputs){
         await loadTransactions(data.query);
     }
-
-
     return (
         <Container onSubmit={handleSubmit(handleSearchTransactions)}>
             <input 
